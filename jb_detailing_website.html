@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JB Detailing | Professional Care. Clean Results.</title>
+<meta name="description" content="JB Detailing — professional vehicle detailing with clean results and careful service.">
+<style>
+:root{--bg:#08090b;--card:#111318;--card2:#17191f;--text:#f5f5f5;--muted:#a7abb4;--accent:#e7e7e7;--line:#292c34}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(8,9,11,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.35rem;font-weight:900;letter-spacing:.08em}
+.logo span{color:#aaa}
+nav{display:flex;gap:24px;align-items:center}
+nav a{font-size:.92rem;color:#c9cbd0}
+nav a:hover{color:#fff}
+.btn{display:inline-block;padding:12px 20px;border:1px solid #fff;border-radius:7px;font-weight:800;transition:.2s}
+.btn:hover{background:#fff;color:#08090b}
+.btn.primary{background:#fff;color:#08090b}
+.hero{min-height:690px;display:grid;place-items:center;position:relative;overflow:hidden;background:
+radial-gradient(circle at 75% 25%,rgba(255,255,255,.13),transparent 28%),
+linear-gradient(135deg,#08090b 0%,#101217 55%,#07080a 100%)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,9,11,.96),rgba(8,9,11,.62),rgba(8,9,11,.85));}
+.hero-content{position:relative;z-index:1;padding:90px 0;max-width:760px}
+.kicker{text-transform:uppercase;letter-spacing:.22em;color:#b9bdc5;font-size:.78rem;font-weight:800;margin-bottom:16px}
+h1{font-size:clamp(3.2rem,8vw,6.7rem);line-height:.92;letter-spacing:-.06em;margin-bottom:24px}
+h2{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.04em;line-height:1.05;margin-bottom:14px}
+.hero p{font-size:1.15rem;color:#c4c7ce;max-width:620px;margin-bottom:32px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:90px 0}
+.section-head{max-width:700px;margin-bottom:38px}
+.section-head p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,var(--card),#0e1014);border:1px solid var(--line);border-radius:14px;padding:28px}
+.card h3{font-size:1.3rem;margin-bottom:7px}
+.price{font-size:1.7rem;font-weight:900;margin:15px 0}
+.card p,.card li{color:var(--muted)}
+.card ul{padding-left:19px;margin:18px 0 24px}
+.card li{margin:7px 0}
+.featured{border-color:#777}
+.badge{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;border:1px solid #555;padding:5px 9px;border-radius:99px;display:inline-block;margin-bottom:15px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:start}
+.info-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:30px}
+.info-box p{color:var(--muted);margin-bottom:15px}
+.policy{background:#0d0f13}
+.policy h3{margin:30px 0 8px;font-size:1.08rem}
+.policy p,.policy li{color:#b4b8c0}
+.policy ul{padding-left:22px;margin-bottom:10px}
+.booking{background:linear-gradient(135deg,#15171c,#090a0c)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.contact{padding:26px;border:1px solid var(--line);border-radius:12px;background:#0e1014}
+.contact small{display:block;color:#8f949e;text-transform:uppercase;letter-spacing:.12em;margin-bottom:5px}
+.contact strong{font-size:1.1rem}
+footer{border-top:1px solid var(--line);padding:35px 0;color:#858a94;font-size:.9rem}
+footer .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){nav{display:none}.grid,.split,.contact-grid{grid-template-columns:1fr}.hero{min-height:600px}section{padding:65px 0}.card{padding:23px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a href="#" class="logo">JB <span>DETAILING</span></a>
+<nav><a href="#services">Services</a><a href="#about">About</a><a href="#policy">Policy</a><a href="#booking">Book</a></nav>
+<a class="btn primary" href="#booking">Book Now</a>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="container hero-content">
+<div class="kicker">Professional Vehicle Detailing</div>
+<h1>Clean vehicle.<br>Clean results.</h1>
+<p>JB Detailing provides careful, professional vehicle detailing designed to bring your interior and exterior back to its best.</p>
+<div class="actions"><a class="btn primary" href="#services">View Packages</a><a class="btn" href="#booking">Request an Appointment</a></div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="section-head"><div class="kicker">Services</div><h2>Detailing packages</h2><p>Choose the service that fits your vehicle. Pricing and package details can be customized below.</p></div>
+<div class="grid">
+<article class="card"><span class="badge">Interior</span><h3>Interior Detail</h3><div class="price">$70</div><p>A thorough interior cleaning to freshen up your vehicle.</p><ul><li>Vacuum interior</li><li>Wipe down surfaces</li><li>Clean windows</li><li>Floor and mat cleaning</li></ul><a class="btn" href="#booking">Book This</a></article>
+
+<article class="card"><span class="badge">Exterior</span><h3>Exterior Clean</h3><div class="price">$80</div><p>A clean exterior finish for vehicles needing a fresh wash.</p><ul><li>Exterior wash</li><li>Drying</li><li>Wheel cleaning</li><li>Tire cleaning</li><li>Exterior finishing</li></ul><a class="btn" href="#booking">Book This</a></article>
+
+<article class="card featured"><span class="badge">Popular</span><h3>Full Detail</h3><div class="price">$150</div><p>Our complete interior and exterior detailing package.</p><ul><li>Full interior detail</li><li>Exterior wash</li><li>Wheels and tires</li><li>Drying and finishing</li><li>Protective products</li></ul><a class="btn primary" href="#booking">Book This</a></article>
+
+<article class="card"><span class="badge">Premium</span><h3>Buff & Wax + Interior</h3><div class="price">$220</div><p>A premium package combining interior detailing with paint polishing and wax protection.</p><ul><li>Full interior detail</li><li>Exterior wash</li><li>Paint preparation</li><li>Machine buffing</li><li>Wax application</li><li>Final wipe-down</li></ul><a class="btn" href="#booking">Book This</a></article>
+</div>
+<p style="color:#777;margin-top:20px;font-size:.9rem">* Prices may vary depending on vehicle size and condition.</p>
+</div>
+</section>
+
+<section id="about">
+<div class="container split">
+<div><div class="kicker">Why JB Detailing</div><h2>Professional care for every vehicle.</h2><p style="color:var(--muted);font-size:1.08rem">We believe a good detail is more than making a vehicle look clean. It means paying attention to the condition of the vehicle, working carefully, and delivering results customers can be proud of.</p></div>
+<div class="info-box"><h3>What you can expect</h3><p>✓ Careful cleaning and attention to detail</p><p>✓ Interior and exterior services</p><p>✓ Before-and-after condition documentation</p><p>✓ Honest expectations based on vehicle condition</p><p>✓ Professional service from start to finish</p></div>
+</div>
+</section>
+
+<section id="policy" class="policy">
+<div class="container">
+<div class="section-head"><div class="kicker">Customer Policy</div><h2>Vehicle Detailing Service Terms & Paint Damage Policy</h2><p>JB Detailing takes pride in providing professional, careful, and high-quality detailing services.</p></div>
+
+<h3>Paint & Existing Damage Disclaimer</h3>
+<p>JB Detailing is not responsible for pre-existing damage or damage that occurs due to the existing condition of a vehicle’s paint or exterior surfaces.</p>
+<p>Before beginning service, customers should inform JB Detailing of any known issues, including:</p>
+<ul><li>Peeling or failing clear coat</li><li>Faded, oxidized, or deteriorated paint</li><li>Previous paintwork or body repairs</li><li>Chipped, cracked, bubbling, or flaking paint</li><li>Loose decals, wraps, badges, emblems, or trim</li><li>Scratches, dents, or other existing damage</li><li>Rust or corrosion</li><li>Previously repaired or damaged surfaces</li></ul>
+<p>Detailing may include cleaning, washing, drying, polishing, and other processes that can expose weaknesses in an already damaged or deteriorated surface. If paint, clear coat, trim, decals, badges, or other exterior materials are already compromised, JB Detailing is not responsible if they become loose, damaged, or separated during the detailing process.</p>
+
+<h3>Customer Responsibility</h3>
+<p>By booking a service, the customer agrees to disclose known damage or concerns before service begins. Customers are responsible for removing valuable, fragile, or personal belongings before the appointment.</p>
+<p>JB Detailing is not responsible for personal belongings left inside the vehicle, pre-existing stains, odors, damage or defects, normal wear and tear, improperly installed aftermarket accessories, loose or deteriorated materials, or issues resulting from previous repairs, modifications, or aftermarket work.</p>
+
+<h3>Interior Detailing</h3>
+<p>JB Detailing will make reasonable efforts to clean and improve the condition of the vehicle’s interior. Some stains, odors, discoloration, pet hair, smoke smells, and other conditions may be permanent or require specialized treatment. Results vary depending on the age, condition, and type of material.</p>
+
+<h3>Exterior Detailing</h3>
+<p>Exterior services may include washing, drying, cleaning wheels and tires, applying protective products, and other procedures depending on the package selected. JB Detailing does not guarantee that every scratch, stain, swirl mark, oxidation spot, or paint imperfection can be removed.</p>
+
+<h3>Before & After Condition</h3>
+<p>For the protection of both the customer and JB Detailing, photographs may be taken before and after service to document the vehicle’s condition. These photos may be used to verify pre-existing damage and the condition of the vehicle at the time of service.</p>
+
+<h3>Weather & Service Conditions</h3>
+<p>Certain services may need to be rescheduled because of severe weather, extreme temperatures, unsafe working conditions, or other circumstances outside of JB Detailing’s control. JB Detailing reserves the right to refuse or stop a service if conditions are unsafe or if continuing could reasonably cause damage to the vehicle.</p>
+
+<h3>Customer Approval</h3>
+<p>By scheduling and/or authorizing a detailing service with JB Detailing, the customer acknowledges that they have read and understood these terms and agrees to the policies listed above.</p>
+<p>JB Detailing will always make a reasonable effort to protect the vehicle and provide professional service. However, vehicles with existing damage, deteriorated materials, or previous repairs may carry additional risks during detailing.</p>
+</div>
+</section>
+
+<section id="booking" class="booking">
+<div class="container">
+<div class="section-head"><div class="kicker">Book Your Detail</div><h2>Ready for a cleaner ride?</h2><p>Call, text, or email JB Detailing to request an appointment in the Northeast Texas area.</p></div>
+<div class="contact-grid">
+<div class="contact"><small>Call or Text</small><strong>(903) 919-1075</strong></div>
+<div class="contact"><small>Email</small><strong>Benjaminbrewer309@icloud.com</strong></div>
+<div class="contact"><small>Service Area</small><strong>Northeast Texas Area</strong></div>
+<div class="contact"><small>Social</small><strong>@JBDetailing</strong></div>
+</div>
+<div style="margin-top:25px"><div class="actions"><a class="btn primary" href="tel:+19039191075">Call JB Detailing</a><a class="btn" href="mailto:Benjaminbrewer309@icloud.com">Email JB Detailing</a></div></div>
+</div>
+</section>
+</main>
+
+<footer><div class="container foot"><div><strong>JB DETAILING</strong><br>Professional Care. Clean Results. Every Vehicle.</div><div>© 2026 JB Detailing. All rights reserved.</div></div></footer>
+</body>
+</html>
